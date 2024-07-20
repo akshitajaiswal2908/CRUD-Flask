@@ -4,6 +4,8 @@
 
 This is a basic Flask application that demonstrates CRUD (Create, Read, Update, Delete) operations. The application uses Flask for the web framework and SQLAlchemy for database interactions.
 
+The website is live at: https://crud-flask-twns.onrender.com/
+
 ## Features
 
 - **Create**: Add new blogs to the database.
