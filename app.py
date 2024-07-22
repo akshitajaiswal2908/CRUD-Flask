@@ -16,6 +16,7 @@ class BlogPost(db.Model):
     content=db.Column(db.Text,nullable=False)
     author=db.Column(db.String(20),nullable=False,default='N/A')
     date_posted = db.Column(db.DateTime,nullable=False,default=datetime.utcnow)
+    likes = db.Column(db.Integer,default=0)
     def __repr__(self):
         return 'BlogPost' + str(self.id)
 
