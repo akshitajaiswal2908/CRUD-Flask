@@ -54,6 +54,14 @@ def delete(id):
     db.session.commit()
     return redirect('/posts')
 
+@app.route('/posts/likes/<int:id>')
+def likes(id):
+    post = BlogPost.query.get_or_404(id)
+    post.likes +=1
+    db.session.commit()
+    return redirect('/posts')
+
+
 @app.route('/posts/edit/<int:id>',methods=['GET','POST'])
 def edit(id):
 
