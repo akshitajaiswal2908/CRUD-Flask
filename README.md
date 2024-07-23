@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a basic Flask application that demonstrates CRUD (Create, Read, Update, Delete) operations. The application uses Flask for the web framework and SQLAlchemy for database interactions.
+ hy  This is a basic Flask application that demonstrates CRUD (Create, Read, Update, Delete) operations. The application uses Flask for the web framework and SQLAlchemy for database interactions.
 
 The website is live at: https://crud-flask-twns.onrender.com/
 
@@ -17,7 +17,6 @@ The website is live at: https://crud-flask-twns.onrender.com/
 
 - Python 3.x
 - Flask
-
 ## Installation and Running
 
 1. **Fork the repository:**
